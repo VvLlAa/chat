@@ -1,0 +1,40 @@
+.userChat {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.message {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.messageSet  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #26343b;
+    height: 50px;
+}
+
+.messageSet input {
+    border: none;
+    outline: none;
+    background-color: #354750;
+    width: 90%;
+}
+
+.blockBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addContact {
+    position: absolute;
+    top: 50%;
+    background-color: #25d366;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}

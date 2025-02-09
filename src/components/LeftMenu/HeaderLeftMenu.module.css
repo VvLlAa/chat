@@ -1,0 +1,20 @@
+.title {
+    padding: 0 16px;
+}
+
+.titleBlock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #20262f;
+    margin: 0 0 10px;
+}

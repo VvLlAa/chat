@@ -1,0 +1,20 @@
+.messageBlock {
+    padding: 40px;
+}
+
+.message {
+    min-width: 40px;
+}
+
+.messageContent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time {
+    font-size: 10px;
+    font-weight: 700;
+    right: 5px;
+    bottom: 0;
+}

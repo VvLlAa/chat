@@ -1,0 +1,28 @@
+.modalContent {
+    padding: 16px;
+}
+
+.modalContent input {
+    background-color: #354750;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+.error {
+    position: absolute;
+    font-size: 10px;
+    color: red;
+    animation: shake 0.3s ease-in-out;
+}
+
+.modalContent .errorInp {
+    border: 1px solid red;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}

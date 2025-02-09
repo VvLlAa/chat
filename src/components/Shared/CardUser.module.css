@@ -1,0 +1,22 @@
+.userCard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 80px;
+    border-bottom: 1px solid #292f3b;
+    padding: 0 16px;
+}
+
+.userCard:hover {
+    background-color: #1f303a;
+    cursor: pointer;
+}
+
+.photoUser {
+    width: 50px;
+}
+
+.numberPhone {
+    font-size: 18px;
+    color: var(--color-white)
+}
