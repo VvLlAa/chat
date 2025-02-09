@@ -11,8 +11,8 @@ interface AuthProps {
 }
 
 const Auth: React.FC<AuthProps> = ({ onAuth }) => {
-    const [idInstance, setIdInstance] = useState<string>('1103187362');
-    const [apiTokenInstance, setApiTokenInstance] = useState<string>('d2e3db08bce94620b2dd6df8338fc7793ebf491934a04c468e');
+    const [idInstance, setIdInstance] = useState<string>('');
+    const [apiTokenInstance, setApiTokenInstance] = useState<string>('');
     const [errors, setErrors] = useState<{ idInstance?: string; apiTokenInstance?: string; phone?: string }>({});
 
     const dispatch = useDispatch();
